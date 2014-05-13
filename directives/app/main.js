@@ -10,7 +10,7 @@ angular.module('app').directive('dvColor', function () {
 })
 
 angular.module('app').controller('TableCtrl', function ($scope) {
-  $scope.feedNumbers = [1, 2, 3, 5, 7, 11]
+  $scope.numbers = [1, 2, 3, 5, 7, 11]
 })
 
 angular.module('app').directive('dvTable', function () {
